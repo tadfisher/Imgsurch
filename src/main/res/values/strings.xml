@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Imgsurch</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+
+    <string-array name="action_list">
+        <item>Volley</item>
+        <item>Picasso</item>
+        <item>Ion</item>
+    </string-array>
+</resources>

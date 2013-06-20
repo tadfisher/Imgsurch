@@ -1,0 +1,28 @@
+buildscript {
+    repositories {
+        mavenCentral()
+    }
+    dependencies {
+        classpath 'com.android.tools.build:gradle:0.4'
+    }
+}
+apply plugin: 'android'
+
+dependencies {
+    compile files('libs/androidasync-1.1.0.jar')
+    compile files('libs/gson-2.2.3.jar')
+    compile files('libs/ion-1.0.9.jar')
+    compile files('libs/picasso-1.1.1.jar')
+    compile files('libs/retrofit-1.0.2.jar')
+    compile files('libs/volley.jar')
+}
+
+android {
+    compileSdkVersion 17
+    buildToolsVersion "17.0.0"
+
+    defaultConfig {
+        minSdkVersion 14
+        targetSdkVersion 17
+    }
+}
